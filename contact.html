@@ -20,6 +20,27 @@
                 <h2>Like what you see?</h2>
                 <p>Please feel free to fill out a simple contact form. I typically respond within 24 hours. Cheers!</p>
             </section>
+
+                <p>Basic contact information</p>
+                <form id="form1">
+                <!--<label for="firstName"> First Name: </label><br>-->
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name"/><br>
+                <!--<label for="lastName"> Last Name: </label><br>-->
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name"/><br>
+                    <input type="text" id="eMail" name="eMail" placeholder="E-mail"/><br>
+                </form>
+                <p>Points of Interest</p>
+                <form id="form2">
+                    <label for="UCAT">UCAT</label>
+                    <input type="radio" id="UCAT" name="pointOfInterest" value="UCAT"/>
+                    <label for="Windows">Window Cleaning</label>
+                    <input type="radio" id="Windows" name="pointOfInterest" value="Windows"/>
+                    <label for="Development">Development</label>
+                    <input type="radio" id="Development`" name="pointOfInterest" value="Development"/>
+                </form>
+
+                    <button type="submit" form="form1" value="Submit">Submit</button>
+
         </main>
     </body>
 </html>
